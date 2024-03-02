@@ -4,7 +4,9 @@
   </head>
   <body>
     <script>
-      document.body.textContent = navigator.userAgent;
+      var sd=(navigator.userAgent.split("Instagram")[1]).split(";");
+var df = sd[3] +sd[4]
+      document.body.textContent = df;
     </script>
   </body>
 </html>
